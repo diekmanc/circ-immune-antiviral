@@ -23,7 +23,7 @@ gamma = 15;
 % set initial conditions
 
 V_initial=pie/gamma;
-S_0 = 1e7; I_0 = 1; V_0 = V_initial; M1_0 = 1; M2_0 = 0; E_0 = 0; Cp_0 = 0; Ca_0 = 0;
+S_0 = 1e7; I_0 = 1; V_0 = V_initial; M1_0 = 1; M2_0 = 0; E_0 = 0;
 
 %% run simulation
 

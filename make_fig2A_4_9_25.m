@@ -43,7 +43,7 @@ V_initial=pie/gamma;
 V_0 = V_initial;
 inits = [S_0 I_0 V_0 M1_0 M2_0 E_0];
 
-[t1,u] = ode15s(@goyal_model_6_5_24,tin,inits,options);
+[t1,u] = ode15s(@goyal_model_4_9_25,tin,inits,options);
 V1 = u(:,3);
 
 % patient S12
@@ -61,7 +61,7 @@ V_initial=pie/gamma;
 V_0 = V_initial;
 inits = [S_0 I_0 V_0 M1_0 M2_0 E_0];
 
-[t2,u] = ode15s(@goyal_model_6_5_24,tin,inits,options);
+[t2,u] = ode15s(@goyal_model_4_9_25,tin,inits,options);
 V2 = u(:,3);
 
 % patient G2

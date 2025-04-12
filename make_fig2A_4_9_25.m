@@ -79,7 +79,7 @@ V_initial=pie/gamma;
 V_0 = V_initial;
 inits = [S_0 I_0 V_0 M1_0 M2_0 E_0];
 
-[t3,u] = ode15s(@goyal_model_6_5_24,tin,inits,options);
+[t3,u] = ode15s(@goyal_model_4_9_25,tin,inits,options);
 V3 = u(:,3);
 
 

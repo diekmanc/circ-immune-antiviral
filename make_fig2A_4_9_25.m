@@ -16,7 +16,7 @@ S_0 = 1e7; I_0 = 1; M1_0 = 1; M2_0 = 0; E_0 = 0;
 
 % set integration options
 
-options = odeset('AbsTol',1e-8,'RelTol',1e-8,'Events',@stopGoyal_3_16_23);
+options = odeset('AbsTol',1e-8,'RelTol',1e-8,'Events',@stopGoyal_4_9_25);
 
 t0=0;
 tf=24*30;
